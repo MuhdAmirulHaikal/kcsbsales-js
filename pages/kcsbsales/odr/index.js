@@ -4,7 +4,7 @@ import AppConfig from '../../../layout/AppConfig';
 import { LayoutContext } from '../../../layout/context/layoutcontext';
 import { classNames } from 'primereact/utils';
 
-const ExPage = () => {
+const OrderPage = () => {
     const [password, setPassword] = useState('');
     const [checked, setChecked] = useState(false);
     const { layoutConfig } = useContext(LayoutContext);
@@ -27,7 +27,7 @@ const ExPage = () => {
     );
 };
 
-// ExPage.getLayout = function getLayout(page) {
+// OrderPage.getLayout = function getLayout(page) {
 //     return (
 //         <React.Fragment>
 //             {page}
@@ -36,4 +36,4 @@ const ExPage = () => {
 //     );
 // };
 
-export default ExPage;
+export default OrderPage;
